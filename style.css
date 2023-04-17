@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+.top-content {
+    padding-top: 100px;
+    background: #ffffff;
+    display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(3, 310px); */
+    gap: 60px;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    background-color: #f9f9f9;
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+
+}
+
+
+
+.card-top img {
+    padding-top: 40px;
+}
+
+.card-top h3 {
+    padding-top: 25px;
+    font-family: "GilroyBold";
+    font-size: 24px;
+    line-height: 28px;
+}
+
+
+.card-top p {
+    padding-top: 17px;
+    width: 277px;
+    font-family: "GilroyRegular";
+    font-size: 15px;
+    line-height: 150%;
+
+}
+
+.card-top a {
+    /* background-color: red; */
+    height: 67px;
+    display: flex;
+    align-items: center;
+    font-family: "GilroyBold";
+    text-decoration: none;
+    color: #000;
+    font-size: 11px;
+    line-height: 150%;
+}
+
+.big {
+    background-color: #fff;
+    width: 370px;
+    padding-left: 29px;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+
+}
+
+.big p {
+
+    padding-right: 67px;
+}
+
+.middle-content {
+    background: rgb(250, 250, 250);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 92px;
+    padding-bottom: 100px;
+}
+
+.middle-content h1 {
+    font-family: 'GilroyBold';
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+}
+
+.middle-content p {
+    max-width: 682px;
+    margin-top: 19px;
+    font-family: 'GilroyRegular';
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666;
+}
+
+.card-mid {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+.shadow {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.cards-middle {
+
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 30px;
+}
+
+.card-mid h2 {
+    margin-top: 25px;
+    font-family: 'GilroyBold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.card-mid p {
+    margin-top: 22px;
+    font-family: 'GilroyRegular';
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #AAAAAA;
+}
+
+.card-mid button {
+    margin-top: 39px;
+    font-family: 'GilroyBold';
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+
+    width: 150px;
+    height: 50px;
+    background: #F25822;
+    border: none;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
